@@ -9,9 +9,12 @@
 #include <iostream>
 
 
-class IToy{
+class IToy {
+public:
 
-    virtual double decorate(int quantity)=0;
-    virtual double pack(int quantity)=0;
+    virtual double decorate(int quantity) = 0;
+
+    virtual double pack(int quantity) = 0;
+};
 
 #endif //INVESTIGATION_SIERRA_ITOY_H
